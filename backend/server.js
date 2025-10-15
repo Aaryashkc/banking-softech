@@ -11,7 +11,7 @@ import landRoutes from './routes/land.route.js'
 const app = express()
 const PORT = process.env.PORT;
 app.use(cors(
-    {origin: ["http://localhost:5173",],
+    {origin: ["http://localhost:5173", "https://banking-softech.vercel.app"],
     credentials: true, }
 ));
 app.use(express.json());
