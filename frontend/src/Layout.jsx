@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection'
 import Footer from './components/Footer'
 import Card from './components/Card'
 import TItle from './components/TItle'
+import AddProperty from './pages/AddProperty'
 const Layout = () => {
   return (
     <>
